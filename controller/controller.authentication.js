@@ -64,7 +64,7 @@ const CREATE_NEW_USER = async (req, res) => {
             try {
                 MESSAGE_CLIENT.messages.create({
                     body:`This is your OTP from Find-talyer App: ${myOTP}`,
-                    from: '+19316503399',
+                    from: '+14435507373',
                     to: `+63${req.body.contactNo}`
                 })
             } catch (error) {
